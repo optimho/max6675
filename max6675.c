@@ -13,7 +13,7 @@ board at 5v.
 Connections on Raspberry Pi Pico board and a generic MPU9250 board, other
 boards may vary.
 
-GPIO 18 (pin 21) Master in Slave out MISO/spi0_RX-> SO on Max6675 board
+GPIO 16 (pin 21) Master in Slave out MISO/spi0_RX-> SO on Max6675 board
 GPIO 17 (pin 22) Chip select spi0_CSn-> CS on Max6675 board
 GPIO 18 (pin 24) Clock SCK/spi0_SCK -> SCk on Max6675 board
 
@@ -40,7 +40,7 @@ using of I2C names
 #define PIN_MISO 16
 #define PIN_CS  17
 #define PIN_SCK  18
-#define PIN_MOSI 19
+#define PIN_MOSI 19 //not required
 #define CAL 1.237562189
 
 static inline void cs_select() {
