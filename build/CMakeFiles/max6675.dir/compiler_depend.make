@@ -2793,14 +2793,8 @@ CMakeFiles/max6675.dir/max6675_example.c.obj: /home/michael/CLionProjects/max667
   /home/michael/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
   /home/michael/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
   /home/michael/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
-  /home/michael/CLionProjects/max6675/max6675.h \
-  /home/michael/CLionProjects/max6675/max6675.c \
-  /home/michael/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
-  /home/michael/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
-  /home/michael/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h
+  /home/michael/CLionProjects/max6675/max6675.h
 
-
-/home/michael/CLionProjects/max6675/max6675.c:
 
 /home/michael/CLionProjects/max6675/max6675_example.c:
 

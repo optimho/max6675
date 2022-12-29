@@ -46,17 +46,39 @@ using of I2C names
 #define PIN_MOSI 19 //not required
 #define CAL 1.0     //calibrate the sensor offset
 
+/**************************************************************************/
+/*!
+    @brief  turn on chip select
+    @returns '0' volts at the chip select pin
+*/
+/**************************************************************************/
+
 static inline void cs_select() {
 //    picoasm volatile("nop \n nop \n nop"); //machine code delay?
     gpio_put(PIN_CS, 0);                // Actively selected when low
 //    picoasm volatile("nop \n nop \n nop");
 }
 
+/**************************************************************************/
+/*!
+    @brief  turn off chip select
+    @returns '3.3' volts at the chip select pin to deselect the chip
+*/
+/**************************************************************************/
+
 static inline void cs_deselect() {
 //    picoasm volatile("nop \n nop \n nop"); //machine code delay?
     gpio_put(PIN_CS, 1);                // Actively selected when low
 //    picoasm volatile("nop \n nop \n nop");
 }
+
+/**************************************************************************/
+/*!
+    @brief   convert the read data into a understandable value
+    @param   temperature_data raw data read from the chip
+
+*/
+/**************************************************************************/
 
 float max6675_temperature_decode(uint8_t *temperature_data) {
 //
