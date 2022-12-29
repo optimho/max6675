@@ -8,12 +8,7 @@
 
 #include "max6675.c"
 
-#define SPI_PORT spi0
-#define PIN_MISO 16
-#define PIN_CS  17
-#define PIN_SCK  18
-#define PIN_MOSI 19
-#define CAL 1.237562189
+
 
 static inline void cs_select();
 static inline void cs_deselect();

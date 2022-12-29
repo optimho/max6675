@@ -35,13 +35,16 @@ using of I2C names
 //
 
 #include "hardware/spi.h"
+#include "pico/stdlib.h"
+#include "pico/binary_info.h"
+
 
 #define SPI_PORT spi0
-#define PIN_MISO 16
-#define PIN_CS  17
-#define PIN_SCK  18
+#define PIN_MISO 4 // data read
+#define PIN_CS  5  // chip select
+#define PIN_SCK  6 // clk
 #define PIN_MOSI 19 //not required
-#define CAL 1.237562189
+#define CAL 1.0     //calibrate the sensor offset
 
 static inline void cs_select() {
 //    picoasm volatile("nop \n nop \n nop"); //machine code delay?
@@ -67,6 +70,7 @@ float max6675_temperature_decode(uint8_t *temperature_data) {
 
     adjusted_temperature = (double) (raw_temperature>>3)*CAL;
     return adjusted_temperature/10;
+
 
 
 }

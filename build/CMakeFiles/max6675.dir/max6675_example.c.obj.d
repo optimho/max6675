@@ -1,5 +1,5 @@
 CMakeFiles/max6675.dir/max6675_example.c.obj: \
- /home/michael/Project/max6675/max6675_example.c \
+ /home/michael/CLionProjects/max6675/max6675_example.c \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -23,9 +23,9 @@ CMakeFiles/max6675.dir/max6675_example.c.obj: \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/include/newlib/assert.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /home/michael/Project/max6675/build/generated/pico_base/pico/version.h \
+ /home/michael/CLionProjects/max6675/build/generated/pico_base/pico/version.h \
  /home/michael/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/michael/Project/max6675/build/generated/pico_base/pico/config_autogen.h \
+ /home/michael/CLionProjects/max6675/build/generated/pico_base/pico/config_autogen.h \
  /home/michael/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/michael/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/michael/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
@@ -54,13 +54,13 @@ CMakeFiles/max6675.dir/max6675_example.c.obj: \
  /home/michael/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
  /home/michael/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /home/michael/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
- /home/michael/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /home/michael/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
  /home/michael/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
  /home/michael/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
  /home/michael/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
  /home/michael/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
- /home/michael/Project/max6675/max6675.h \
- /home/michael/Project/max6675/max6675.c \
+ /home/michael/CLionProjects/max6675/max6675.h \
+ /home/michael/CLionProjects/max6675/max6675.c \
  /home/michael/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
  /home/michael/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
  /home/michael/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h

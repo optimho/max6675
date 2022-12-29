@@ -25,9 +25,9 @@ CMakeFiles/max6675.dir/home/michael/pico/pico-sdk/src/rp2_common/pico_stdio/stdi
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/include/newlib/assert.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /home/michael/Project/max6675/build/generated/pico_base/pico/version.h \
+ /home/michael/CLionProjects/max6675/build/generated/pico_base/pico/version.h \
  /home/michael/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/michael/Project/max6675/build/generated/pico_base/pico/config_autogen.h \
+ /home/michael/CLionProjects/max6675/build/generated/pico_base/pico/config_autogen.h \
  /home/michael/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/michael/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/michael/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
@@ -47,8 +47,4 @@ CMakeFiles/max6675.dir/home/michael/pico/pico-sdk/src/rp2_common/pico_stdio/stdi
  /home/michael/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
  /home/michael/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
  /home/michael/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
- /home/michael/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
- /home/michael/pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
- /home/michael/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
- /home/michael/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
- /home/michael/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
+ /home/michael/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h

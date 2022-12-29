@@ -25,17 +25,17 @@ add_executable(max6675 max6675_example.c)
 pico_set_program_name(max6675 "max6675")
 pico_set_program_version(max6675 "0.1")
 
-pico_enable_stdio_uart(max6675 1)
-pico_enable_stdio_usb(max6675 0)
+pico_enable_stdio_uart(max6675 0)
+pico_enable_stdio_usb(max6675 1)
 
 # Add the standard library to the build
 target_link_libraries(max6675 pico_stdlib)
 
 # Add any user requested libraries
-target_link_libraries(max6675
+target_link_libraries(
+        max6675
         pico_stdlib
         hardware_spi
         )
 
 pico_add_extra_outputs(max6675)
-

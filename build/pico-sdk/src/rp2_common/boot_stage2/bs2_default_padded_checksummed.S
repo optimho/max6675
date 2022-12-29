@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /home/michael/Project/max6675/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /home/michael/CLionProjects/max6675/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

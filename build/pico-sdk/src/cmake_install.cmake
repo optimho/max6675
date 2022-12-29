@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/michael/Project/max6675/build/pico-sdk/src/common/cmake_install.cmake")
-  include("/home/michael/Project/max6675/build/pico-sdk/src/rp2_common/cmake_install.cmake")
-  include("/home/michael/Project/max6675/build/pico-sdk/src/rp2040/cmake_install.cmake")
+  include("/home/michael/CLionProjects/max6675/build/pico-sdk/src/common/cmake_install.cmake")
+  include("/home/michael/CLionProjects/max6675/build/pico-sdk/src/rp2_common/cmake_install.cmake")
+  include("/home/michael/CLionProjects/max6675/build/pico-sdk/src/rp2040/cmake_install.cmake")
 
 endif()
 

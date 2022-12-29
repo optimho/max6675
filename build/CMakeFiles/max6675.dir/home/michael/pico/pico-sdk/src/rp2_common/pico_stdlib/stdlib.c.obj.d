@@ -11,9 +11,9 @@ CMakeFiles/max6675.dir/home/michael/pico/pico-sdk/src/rp2_common/pico_stdlib/std
  /usr/include/newlib/sys/features.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
- /home/michael/Project/max6675/build/generated/pico_base/pico/version.h \
+ /home/michael/CLionProjects/max6675/build/generated/pico_base/pico/version.h \
  /home/michael/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/michael/Project/max6675/build/generated/pico_base/pico/config_autogen.h \
+ /home/michael/CLionProjects/max6675/build/generated/pico_base/pico/config_autogen.h \
  /home/michael/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/michael/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/michael/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
@@ -44,10 +44,14 @@ CMakeFiles/max6675.dir/home/michael/pico/pico-sdk/src/rp2_common/pico_stdlib/std
  /home/michael/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
  /home/michael/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /home/michael/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
- /home/michael/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /home/michael/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
  /home/michael/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
  /home/michael/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
  /home/michael/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
  /home/michael/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
  /home/michael/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
- /home/michael/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
+ /home/michael/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+ /home/michael/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+ /home/michael/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+ /home/michael/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+ /home/michael/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h
